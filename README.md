@@ -23,7 +23,7 @@ CLI (Command Line Interface)
 - ### Git dan Github
 
     - Git adalah tools untuk programmer berfungsi sebagai control system untuk menjalankan proyek pengembangan software.
-    - Github : Github adalah situs web juga sebuah layanan cloud yang bisa membantu para pengguna untuk menyimpan,mengelola dan mengembangkan
+    - Github adalah situs web juga sebuah layanan cloud yang bisa membantu para pengguna untuk menyimpan,mengelola dan mengembangkan
     
 - ### Command Git:
     - git init : untuk membuat file di repository lokal
@@ -97,7 +97,7 @@ output
 
 ![image](https://user-images.githubusercontent.com/114202925/192457659-f9fbbd4b-8f83-4a4f-8cb9-d9cb93dc0f0d.png)
 
-- section
+- section (pemisah)
 ```html
 <section>
             <h2>Contact me</h2>
@@ -116,7 +116,7 @@ output
 ![image](https://user-images.githubusercontent.com/114202925/192457617-66f15516-63e0-457b-834e-345ea996b315.png)
 
 CSS (Cascading Style Sheet)
--
+
 - CSS untuk memperindah tampilan html
 - Cara menggunakan CSS ada 3, yaitu :
 
@@ -174,7 +174,7 @@ CSS (Cascading Style Sheet)
     display: inline-block;
     /* visibility: hidden; */
     width: 50% ;
-    border: black solid 5px;
+    border: black solid 1px;
     }
     ```
 
