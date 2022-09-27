@@ -1,50 +1,63 @@
 CLI (Command Line Interface)
 -
-- CLI : hanya ada teks, tidak ada tampilannya.  
-- Perbedaan GUI (Graphic User Interface) dengan CLI yaitu GUI berupa tampilan, CLI hanya teks.
-- Shell : perintah2 yg digunakan untuk menginstruksikan system operasi
-- Contoh cli : cmd, bash
-- Perintah-perintah yang ada di CLI :
-1. Pwd : untuk melihat dimana posisi kita berada
-2. Ls : untuk melihat isi file apa saja yang ada didalamnya
-3. Cd : untuk berpindah direktori/folder. Untuk keluar dari folder : (nama folder) cd..
-4. Clear : untuk menghapus
-5. Mkdir : untuk membuat folder baru
-6. Nano : untuk mengisi file di folder baru
-7. Cat : untuk melihat isi dari file
-8. Head : menampilkan beberapa isi dari baris atas
-9. Tail : menampilkan beberapa isi dari baris bawah
-10. Cp : untuk mencopy/menyalin file
-11. Rm : untuk menghapus file
+- ### CLI
 
-Git dan Github
--
-- Git adalah tools untuk programmer
-- Git : software berbasis version control system.
-- berfungsi sebagai control system untuk menjalankan proyek pengembangan software.
-- repository : direktor proyek yang kita buat
-- Perintah yang ada di Git :
-1. git init : untuk membuat file di repository lokal
-2. git status : untuk memgetahui status dari sebuah repository
-3. git add : untuk menambahkan file baru di repository
-4. git commit : untuk menyimpan perubahan yang sudah dilakukan, tetapi tidak pada remote repository
-5. git log : untuk melihat catatan-catatan revisi yang sudah dilakukan
-6. git push : untuk mengirimkan perubahan file setelah di commit ke remote repository
-7. git branch : untuk melihat semua cabang di repository
-8. git checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan branch yang sudah dipilih.
-9. git merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
-10. git clone: adalah perintah yang digunakan untuk mengkloning repository lokal
+    Hanya ada teks, tidak ada tampilannya.  || Perbedaan GUI (Graphic User Interface) dengan CLI yaitu GUI berupa tampilan, CLI hanya teks.
 
-- Github : Sebuah aplikasi untuk mengupload codingan
+    Contoh cli : cmd, bash
 
-HTML (Hypertext Markup Language)
--
-- Html digunakan untuk menampilkan konten pada web browser
-- Tools yang digunakan untuk html : browser dan visual studio code
-- Html element terdiri dari opening tag, content, closing tag
+- ### SHELL 
+
+    perintah2 yg digunakan untuk menginstruksikan system operasi
+
+- ### Perintah-perintah yang ada di CLI :
+    - Pwd : untuk melihat dimana posisi kita berada
+    - Ls : untuk melihat isi file apa saja yang ada didalamnya
+    - Cd : untuk berpindah direktori/folder. Untuk keluar dari folder : (nama folder) cd..
+    - Mkdir : untuk membuat folder baru
+    - Head : menampilkan beberapa isi dari baris atas
+    - Tail : menampilkan beberapa isi dari baris bawah
+    - Cp : untuk mencopy/menyalin file
+    - Rm : untuk menghapus file
+
+- ### Git dan Github
+
+    - Git adalah tools untuk programmer berfungsi sebagai control system untuk menjalankan proyek pengembangan software.
+    - Github : Github adalah situs web juga sebuah layanan cloud yang bisa membantu para pengguna untuk menyimpan,mengelola dan mengembangkan
+    
+- ### Command Git:
+    - git init : untuk membuat file di repository lokal
+    - git status : untuk memgetahui status dari sebuah repository
+    - git add : untuk menambahkan file baru di repository
+    - git commit : untuk menyimpan perubahan yang sudah dilakukan, tetapi tidak pada remote repository
+    - git log : untuk melihat catatan-catatan revisi yang sudah dilakukan
+    - git push : untuk mengirimkan perubahan file setelah di commit ke remote repository
+    - git branch : untuk melihat semua cabang di repository
+    - git checkout: sebuah perintah yang digunakan untuk menukar branch yang aktif dengan branch yang sudah dipilih.
+    - git merge: perintah yang digunakan untuk menggabungkan cabang aktif serta cabang yang dipilih
+    - git clone: adalah perintah yang digunakan untuk mengkloning repository lokal
+
+
+- ### HTML (Hypertext Markup Language)
+
+    - Html digunakan untuk menampilkan konten pada web browser
+    - Tools yang digunakan untuk html : browser dan visual studio code
+    - Html element terdiri dari opening tag, content, closing tag
 ```html
 <p>Hello World</p>
 ```
+- Kerangka Dasar Sebuah Web
+```html
+  <html>
+  <head>
+  <title>
+      nama website
+    </title>
+  <body>
+      bebas isinya konten website.
+    </body>
+  </html>
+  ```
 
 - Attribute : sebuah properti dari html element
 ```html
@@ -222,6 +235,7 @@ let age = 17 //output = 17
 Loop (Perulangan)
 -
 - For
+
     ```js
     //for(start; stop; step;)
     for (let i=1; i<= 10; i++){
@@ -229,6 +243,7 @@ Loop (Perulangan)
     } //output : 12345678910
     ```
 - If Condition
+
     ```js
     if(i==6){
         console.log (i "yes ketemu")
@@ -237,32 +252,20 @@ Loop (Perulangan)
     } //output : 6 'yes ketemu'
     ```
 - While
-    ```js
-    let i = 10
-    while (i <= 10) {
-        console.log(i)
-        i++
-    }
-    ```
+ 
     ```js
     //cari angka yang dapat dibagi dengan angka 2,3,4,5,6
     i=1
     let isKetemu = false
     while(!isKetemu) {
-if (i%2 == 0 && i%3==0 && i%4 == 0 && i%5 == 0 && i%6 == 0 ){
-Console.log(i);
-isKetemu=true
+    if (i%2 == 0 && i%3==0 && i%4 == 0 && i%5 == 0 && i%6 == 0 ){
+    Console.log(i);
+    isKetemu=true
     } i++
     } //output : 60
     ```
 - Do while
-    ```js
-    i = 1
-    do {
-        console.log(i)
-    i++
-    } while (i <= 10) //output : 12345678910
-    ```
+   
     ```js
     //cari angka yang dapat dibagi dengan angka 2,3,4,5,6
     do {
